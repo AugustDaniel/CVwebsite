@@ -1,0 +1,80 @@
+body {
+    font-family: helvetica;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+
+.wrapper {
+    margin: auto auto;
+    width: 60rem;
+}
+
+.boven, .onder, .rightHeader, .header, .onder, .opleiding {
+    display: flex;
+    flex-direction: row;
+}
+
+.opleidingen, .rightSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.opleiding {
+    justify-content: space-between;
+}
+
+.opleidingNaam {
+    font-weight: bold;
+}
+
+.opleidingLocatie {
+    color: gray;
+}
+
+.leftSide {
+    width: 40rem;
+}
+
+.rightSide {
+    width: 10rem;
+}
+
+.onder {
+    justify-content: space-between;
+}
+
+.opleidingSectie {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    margin-bottom: 1rem;
+}
+
+.opleidingSectie p {
+    margin: auto 1rem auto 1rem;
+ }
+
+.rightHeader img {
+    width: 1.5rem;
+
+}
+
+.leftHeader img {
+    width: 15rem;
+}
+
+.rightHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightHeaderInfo, .contactInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
